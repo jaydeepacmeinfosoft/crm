@@ -1,0 +1,68 @@
+.pr-calendar {
+    .col-xs-12 {
+        width: 100%;
+    }
+    .present {
+        background: green;
+        position: relative;
+    }
+    .absent {
+        background: red;
+        position: relative;
+    }
+    .halfday {
+        background: #a0ab83;
+        position: relative;
+    }
+    .twohours {
+        background: #f2c368;
+        position: relative;
+    }
+
+    .diff {
+        background: lightgrey;
+        position: relative;
+    }
+    .fc-event-time,
+    .fc-event-title {
+        color: #fff;
+        padding: 0 1px;
+    }
+    .fc-event {
+        font-size: 13px;
+    }
+    .fc-button {
+        height: 35.11px;
+    }
+
+    .fc .fc-button-primary {
+        background-color: #fff;
+        color: #1d1c1c;
+        border: 1px solid #e0e0e0 !important;
+    }
+    .fc .fc-button-primary:not(:disabled).fc-button-active {
+        background-color: rgba(192, 192, 192, 0.2) !important;
+        border-color: #e0e0e0 !important;
+        color: #1d1c1c !important;
+    }
+    .fc-button-group {
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .fc .fc-button-primary:hover {
+        background-color: rgba(192, 192, 192, 0.2) !important;
+        color: #1d1c1c !important;
+    }
+    .fc .fc-button-primary:focus {
+        box-shadow: none !important;
+    }
+
+    .fc .fc-button {
+        line-height: 0.5em;
+        height: 2.1em;
+    }
+    .fc-icon {
+        line-height: 00.8em;
+        height: 2.1em;
+    }
+}
